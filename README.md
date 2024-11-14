@@ -1,4 +1,4 @@
-# title
+# Installation von Monitoring
 
 ## installation
 ### Prometheus
@@ -12,3 +12,10 @@ sudo systemctl status prometheus
 ```
 
 ### Grafana
+```sh
+sudo apt-get install grafana
+sudo /bin/systemctl enable grafana-server
+sudo /bin/systemctl start grafana-server
+ss -tulpen
+```
+open grafana: http://localhost:3000/

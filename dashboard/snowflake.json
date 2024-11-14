@@ -70,7 +70,8 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green"
+                "color": "green",
+                "value": null
               },
               {
                 "color": "red",
@@ -132,7 +133,7 @@
           "useBackend": false
         }
       ],
-      "title": "Panel Title",
+      "title": "Netzwerk UP/DOWN",
       "type": "timeseries"
     },
     {
@@ -183,7 +184,8 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green"
+                "color": "green",
+                "value": null
               },
               {
                 "color": "red",
@@ -256,7 +258,7 @@
           "useBackend": false
         }
       ],
-      "title": "Panel Title",
+      "title": "RAM",
       "type": "timeseries"
     }
   ],
@@ -275,6 +277,6 @@
   "timezone": "browser",
   "title": "snowflake",
   "uid": "ce3mookzlv2m8a",
-  "version": 8,
+  "version": 9,
   "weekStart": ""
 }
